@@ -1,0 +1,39 @@
+{
+  "name": "tuber-deploy",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "repository": "GTDev87/tuber-deploy",
+  "author": {
+    "name": "Gregory Thompson",
+    "email": "gregt87@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^0.4.5",
+    "gulp-babel": "^5.1.0",
+    "babel-core": "^5.5.0",
+    "isparta": "^3.0.3",
+    "jasmine": "^2.3.1"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "node ./node_modules/jasmine/bin/jasmine.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "docker-cmd": "^0.2.2",
+    "dockermachine": "0.0.5"
+  }
+}
