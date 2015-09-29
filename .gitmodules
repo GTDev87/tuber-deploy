@@ -1,0 +1,3 @@
+[submodule "quick-deploy"]
+	path = quick-deploy
+	url = https://github.com/GTDev87/quick-deploy
