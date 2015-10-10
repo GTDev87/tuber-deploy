@@ -34,6 +34,7 @@
   "license": "MIT",
   "dependencies": {
     "docker-cmd": "^0.2.2",
-    "dockermachine": "0.0.5"
+    "pem": "^1.7.2",
+    "shell-quote": "^1.4.3"
   }
 }
