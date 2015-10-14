@@ -1,7 +1,19 @@
+#!/usr/bin/env node
 var tuberDeploy = require("../lib"),
-  args = process.argv.slice(2)
-  ip = args[0],
-  dockerFileLocation = args[1],
-  port = args[2];
+  argv = require('optimist')
+    .demand(['i','d', 'p'])
+    .argv;
 
-tuberDeploy.genericBuildAndCreate(ip, dockerFileLocation, port);
+var ip = argv.i;
+var dockerFileLocation = argv.d;
+var port = argv.p;
+var sshKey = argv.k;
+var privateKeyLocation = argv.s;
+
+console.log("ip = %j", ip);
+console.log("dockerFileLocation = %j", dockerFileLocation);
+console.log("port = %j", port);
+console.log("sshKey = %j", sshKey);
+console.log("privateKeyLocation = %j", privateKeyLocation);
+
+tuberDeploy.genericBuildAndCreate(ip, dockerFileLocation, port, sshKey, privateKeyLocation);
