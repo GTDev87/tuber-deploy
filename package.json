@@ -1,14 +1,13 @@
 {
   "name": "tuber-deploy",
   "version": "0.0.2",
-  "description": "",
-  "homepage": "",
-  "repository": "GTDev87/tuber-deploy",
-  "author": {
-    "name": "Gregory Thompson",
-    "email": "gregt87@gmail.com",
-    "url": ""
+  "description": ">",
+  "homepage": "https://github.com/gtdev87/tuber-deploy#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtdev87/tuber-deploy.git"
   },
+  "author": "Gregory Thompson <gregt87@gmail.com>",
   "files": [
     "dist"
   ],
@@ -28,5 +27,8 @@
     "optimist": "^0.6.1",
     "pem": "^1.7.2",
     "shell-quote": "^1.4.3"
+  },
+  "bugs": {
+    "url": "https://github.com/gtdev87/tuber-deploy/issues"
   }
 }
