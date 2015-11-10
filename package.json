@@ -8,9 +8,6 @@
     "url": "git+https://github.com/gtdev87/tuber-deploy.git"
   },
   "author": "Gregory Thompson <gregt87@gmail.com>",
-  "files": [
-    "dist"
-  ],
   "main": "index.js",
   "keywords": [],
   "devDependencies": {
