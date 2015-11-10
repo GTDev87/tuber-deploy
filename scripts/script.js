@@ -16,4 +16,4 @@ console.log("port = %j", port);
 console.log("sshKey = %j", sshKey);
 console.log("privateKeyLocation = %j", privateKeyLocation);
 
-tuberDeploy.genericBuildAndCreate(ip, dockerFileLocation, port, sshKey, privateKeyLocation);
+tuberDeploy.genericBuildAndCreate({ip: ip, port: port}, dockerFileLocation, port, sshKey, privateKeyLocation);
