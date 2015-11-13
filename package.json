@@ -22,8 +22,7 @@
   "dependencies": {
     "lodash": "^3.10.1",
     "optimist": "^0.6.1",
-    "pem": "^1.7.2",
-    "shell-quote": "^1.4.3"
+    "pem": "^1.7.2"
   },
   "bugs": {
     "url": "https://github.com/gtdev87/tuber-deploy/issues"
