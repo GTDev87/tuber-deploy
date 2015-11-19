@@ -17,3 +17,8 @@ console.log("sshKey = %j", sshKey);
 console.log("privateKeyLocation = %j", privateKeyLocation);
 
 tuberDeploy.genericBuildAndCreate({ip: ip, port: port}, dockerFileLocation, sshKey, privateKeyLocation);
+
+// tuberDeploy.genericBuildAndCreate({ip: ip, port: port}, dockerFileLocation, sshKey, privateKeyLocation, function (cert) {return {hello: "world"};}, function (macaroon){
+//   console.log("macaroon = %j", macaroon);
+
+// });
