@@ -20,9 +20,14 @@
   },
   "license": "MIT",
   "dependencies": {
+    "async": "^1.5.2",
+    "crypto": "0.0.3",
     "lodash": "^3.10.1",
+    "macaroons.js": "^0.3.5",
+    "node-rsa": "^0.2.30",
     "optimist": "^0.6.1",
-    "pem": "^1.7.2"
+    "pem": "^1.8.1",
+    "public-key-macaroons": "0.0.5"
   },
   "bugs": {
     "url": "https://github.com/gtdev87/tuber-deploy/issues"
