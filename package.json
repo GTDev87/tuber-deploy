@@ -2,34 +2,31 @@
   "name": "tuber-deploy",
   "version": "0.0.17",
   "description": ">",
-  "homepage": "https://github.com/gtdev87/tuber-deploy#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jasmine/bin/jasmine.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gtdev87/tuber-deploy.git"
   },
   "author": "Gregory Thompson <gregt87@gmail.com>",
-  "main": "index.js",
-  "keywords": [],
-  "devDependencies": {
-    "babel-core": "^5.5.0",
-    "isparta": "^3.0.3",
-    "jasmine": "^2.3.1"
-  },
-  "scripts": {
-    "test": "node ./node_modules/jasmine/bin/jasmine.js"
-  },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gtdev87/tuber-deploy/issues"
+  },
   "dependencies": {
     "async": "^1.5.2",
     "crypto": "0.0.3",
     "lodash": "^3.10.1",
-    "macaroons.js": "^0.3.5",
+    "node-macaroons": "0.0.6",
     "node-rsa": "^0.2.30",
     "optimist": "^0.6.1",
     "pem": "^1.8.1",
-    "public-key-macaroons": "0.0.5"
+    "public-key-macaroons": "0.0.6"
   },
-  "bugs": {
-    "url": "https://github.com/gtdev87/tuber-deploy/issues"
-  }
+  "devDependencies": {
+    "jasmine": "^2.3.1"
+  },
+  "homepage": "https://github.com/gtdev87/tuber-deploy#readme"
 }
